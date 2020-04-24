@@ -1,10 +1,417 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>Redirecting to the Homepage...</title>
-      <meta http-equiv = "refresh" content = "1; url = blog2.html" />
-   </head>
-   <body>
-      <p>Redirecting to another URL</p>
-   </body>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="icon" href="https://www.ee.iitb.ac.in/web/iitblogogray.png" type="image/png">
+		<title>n0ob4eVer::Homepage</title>
+		<style type="text/css">
+			#container{
+				width: 95%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			#header{
+				color: white;
+			    overflow: hidden;
+			    text-align: center;
+			    font-size: 16px;
+			    text-transform: uppercase;
+			    padding: 5px;
+			    background-color: #cc0000;
+			}
+			#header img {
+				float: left;
+				width: 140px;
+				height: 30px;
+			}
+			#content{
+				padding: 10px;
+			}
+			#nav{
+				float: left;
+				width: 18%;
+				height: 25%;
+				background-color: #f2ffcc;
+				text-align: center;
+				margin: 10px;
+				display: inline-block;
+				border: 1px solid #a1a1a1;
+				box-shadow: 5px 10px 18px grey;
+			}
+			#nav li a { 
+				color: blue;
+				text-decoration: none; 
+				background-color: #f1f1f1;
+				border: 1px solid #;
+				}	
+
+			#nav li a:hover{
+				color: black;
+				background-color: #e1e1e1;
+				width: 98%;
+			}			 
+			#nav ul { 
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				font-size: 12px;
+			}
+			#nav li{
+				display: inline-block;
+				border: 1px solid #a1a1a1;
+				width: 98%; 
+				border-style: double;
+				border-width: 1px 0px 0px 0px;
+			}
+			#nav h3 {
+				background-color: #cc0000;
+				color: white;
+				margin: 0;
+				padding: 3px;	
+			}
+			#main{
+				float: right;
+				width: 75%;
+				box-shadow: 5px 10px 18px grey;
+				padding: 3px;
+			}
+			#main h3 {
+			font-weight: bold;
+			text-transform: uppercase;
+			margin-bottom: 2;
+			color: white;
+			background-color: #cc0000;
+			padding-left: 5px;
+			}
+			#footer{
+				padding: 4px;
+				clear: both;
+				text-align: right;
+				background-color: #444;
+				color: white;
+			}
+			#footer a {
+				color: white;
+			}
+			#footer i {
+				font-size:24px;
+			}
+			a {
+				text-decoration: none;
+			}
+			h2{
+				margin: 0;
+
+			}
+			table#edu {
+				table-layout: fixed;
+				width: 100%;
+			}
+			table#edu td,th {
+			  border: 1px solid #ccc;
+			  padding: 5px;
+			  word-wrap: break-word;
+			  table-layout: fixed;
+			  margin: auto;
+			}
+			table#edu tr:nth-child(odd) {
+			  background-color: #eee;
+			}
+			.dark-mode {
+			  background-color: black;
+			  color: white;
+			}
+			.dark-mode table tbody>tr:nth-child(odd)>td,
+			.dark-mode table tbody>tr:nth-child(odd)>th {
+			  background: #282c34
+			}
+			.dark-mode #main a {
+				color: white;
+				font-weight: : bold;
+				text-decoration: underline;
+			}
+			.dark-mode #main b {
+				color: white;
+				font-weight: 1000;
+			}
+			#main b {
+				color: blue;
+				font-weight: 300;
+			}
+			.button_class {
+				background-color: white;
+				border: none;
+				color: black;
+				text-align: center;
+				cursor: pointer;
+				border-radius: 10%;
+			}
+			.button_class:hover {
+			  background-color: #555555;
+			  color: white;
+			}
+		</style>
+	</head>
+	<meta name="keywords" content="Soham, Naha, Electrical, Electronics, IITB, IIT, Bombay, M.Tech, SysAd, PCLab,pclab">
+	<meta name="description" content="Soham Naha's Home Page">
+
+	<body bgcolor="#FFF">
+		<div id="container">
+			<div id="header">
+				<img src="./ee_iitb.png"></img>
+				<button class="button_class" style="float: right; overflow: hidden;" onclick="myFunction()"><div id="eg">Dark <br> Mode</div></button>
+				<h2>Soham Naha's Homepage</h2>
+				<script>
+				function myFunction() {
+				   var element = document.body;
+				   element.classList.toggle("dark-mode");
+				   var x=document.getElementById("eg");
+					   if (x.innerHTML === "Dark <br> Mode") {
+					    x.innerHTML = "Light <br> Mode";
+					  } else {
+					    x.innerHTML = "Dark <br> Mode";
+					  }
+					}
+				</script>
+			</div>
+			<div id="content">
+				<div id="nav">
+					<h3 style="">Navigation</h3>
+					<ul>
+						<li><a href="#">About Me</a></li>
+						<li><a href="#education"> Education</a></li>
+						<li><a href="#courses"> Courses</a></li>
+						<li><a href="#projects">Project</a></li>
+						<li><a href="#certifications">Certificates</a></li>
+						<li><a href="#internships">Internships</a></li>
+						<li><a href="#hobbies">Hobbies</a></li>
+					</ul>
+				</div>
+				<div id="main">
+					<table>
+						<tr><h3>About Me :</h3></tr>
+						<tr>
+							<td><p>I am pursuing M.tech in Communication and Signal Processing at Department of Electrical Engineering, IIT Bombay. I am a System Administrator for Electrical Engineering Department. I am a Coding Enthusiast and learning my way through to become a Machine Learning Researcher. To know more about SysAds at EE Department, IITB please <a href="http://www.ee.iitb.ac.in/~pclab/index.php" target="_blank">click here</a></p></td>
+							<td><img src="./pic.jpeg" width="100" height="100" style="border-radius: 50%" alt="profile_picture"></img></td>
+						</tr>
+					</table>
+					<h3 id="education"> Educational Qualification :</h3>
+					<table id="edu" style="text-align: center; border-collapse: collapse;">
+						<tr>
+							<th>Degree</th>
+							<th>Institute</th>
+							<th>University</th>
+							<th>Specialization</th>
+							<th>CGPA/%</th>
+							<th>Year of Completion</th>
+						</tr>
+						<tr>
+							<td>M.Tech</td>
+							<td><a href="http://www.iitb.ac.in" target="_blank">Indian Institute of Technology, Bombay </a></td>
+							<td>Indian Institute of Technology, Bombay</td>
+							<td>Communication and Signal Processing</td>
+							<td> </td>
+							<td>2019-Present</td>
+						</tr>
+						<tr>
+							<td>B.Tech</td>
+							<td><a href="http://www.kgec.edu.in" target="_blank">Kalyani Government Engineering College </a></td>
+							<td>Maulana Abul Kalam Azad University of Technology (M.A.K.A.U.T.)</td>
+							<td>Electronics and Communication Engineering</td>
+							<td>8.87</td>
+							<td>2015-2019</td>
+						</tr>
+						<tr>
+							<td>Higher Secondary</td>
+							<td><a href="http://www.uttarparagovtschool-esa.org/" target="_blank">Uttarpara Government High School</a></td>
+							<td>West Bengal Council for Higher Secondary Education (W.B.C.H.S.E.)</td>
+							<td>Science</td>
+							<td>89.80%</td>
+							<td>2015</td>
+						</tr>
+						<tr>
+							<td>Secondary (Madhyamik)</td>
+							<td> <a href="http://hmeducationcentre.in/" target="_blank">Hindmotor Education Center</a></td>
+							<td>West Bengal Board of Secondary Education (W.B.B.S.E.)</td>
+							<td> </td>
+							<td>91.57%</td>
+							<td>2013</td>
+						</tr>
+					</table>
+
+					<h3 id="courses">Semester-wise Courses & Results :</h3>
+					<p align="left">The following courses were done by me at IIT Bombay :</p>
+					<ul>
+						<details>
+							<summary>1<sup>st</sup> Semester (8.33/10)</summary>
+							<ul>
+								<li>Statistical Signal Analysis (10/10)</li>
+								<li>Digital Message Transmission (9/10)</li>
+								<li>Applied Linear Algebra (6/10)</li>
+							</ul>
+						</details>
+						<details>
+							<summary>2<sup>nd</sup> Semester (./10)</summary>
+								<ul><li>Communication Networks</li>
+								<li>Introduction to Machine Learning</li>
+								<li>Cryptography and Network Security</li>
+							</ul>
+						</details>
+						
+					</ul>
+					<p align="left">The following courses were done by me at Kalyani Government Engineering College :</p>
+					<ul>
+						<details>
+							<summary>1<sup>st</sup> Semester (8.41/10)</summary>
+							<ul>
+								<li>Basic Electrical and Electronic Engineering - I (8/10 in both Theory and Lab)</li>
+								<li>English Language and Technical Communication (8/10 in Theory, 7/10 in Lab)</li>
+								<li>Chemistry - I (8/10 in Theory, 9/10 in Lab)</li>
+								<li>Mathematics - I (10/10)</li>
+								<li>Engineering Mechanics (7/10)</li>
+								<li>Engineering Drawing and Computer Graphics (10/10)</li>
+							</ul></details>
+						<details>
+						<summary>2<sup>nd</sup> Semester (8.21/10)</summary>
+							<ul>
+								<li>Basic Computation and Principles of Computer Programming (8/10 in Theory, 9/10 in Lab)</li>
+								<li>Physics - I (7/10 in Theory, 8/10 in Lab)</li>
+								<li>Mathematics - II (9/10)</li>
+								<li>Engineering Thermodynamics and Fluid Mechanics (8/10)</li>
+								<li>Basic Electrical and Electronic Engineering - II (9/10 in Theory, 8/10 in Lab)</li>
+								<li>Workshop Practice (8/10)</li>
+							</ul></details>
+						<details>
+						<summary>3<sup>rd</sup> Semester (8.52/10)</summary>
+							<ul>
+								<li>Numerical Methods (10/10 in Theory, 10/10 in Lab)</li>
+								<li>Mathematics - III (9/10)</li>
+								<li>Circuit Thoery and Networks (8/10 in Theory, 10/10 in Lab)</li>
+								<li>Solid State Devices (7/10 in Theory, 9/10 in Lab)</li>
+								<li>Signals and Systems (8/10 in Theory, 7/10 in Lab)</li>
+								<li>Analog Electronic Circuits (8/10 in Theory, 10/10 in Lab)</li>
+							</ul></details>
+						<details>
+						<summary>4<sup>th</sup> Semester (8.81/10)</summary>
+							<ul>
+								<li>Values and Ethics in Profession (8/10 in Theory, 9/10 in Lab)</li>
+								<li>Physics -II (8/10 in Theory, 8/10 in Lab)</li>
+								<li>Basic Environmental Engineering and Elementary Biology (9/10)</li>
+								<li>EM Theory and Transmission Lines (10/10 in Theory, 9/10 in Lab)</li>
+								<li>Digital Electronic and Integrated Circuits (9/10 in Theory, 9/10 in Lab)</li>
+							</ul></details>
+						<details>
+						<summary>5<sup>th</sup> Semester (8.85/10)</summary>
+							<ul>
+								<li>Economics for Engineers (9/10)</li>
+								<li>Analog Communication (9/10 in Theory, 9/10 in Lab)</li>
+								<li>Microprocessor and Micrcontrollers (9/10 in Theory, 9/10 in Lab</li>
+								<li>Control System (9/10 in Theory, 9/10 in Lab)</li>
+								<li>Data Structure and C (8/10 in Theory, 9/10 in Lab)</li>
+							</ul></details>
+						<details>
+						<summary>6<sup>th</sup> Semester (9.52/10)</summary>
+							<ul>
+								<li>Principles of Management (8/10)</li>
+								<li>Digital Communication (10/10 in Theory, 9/10 in Lab)</li>
+								<li>Digital Signal Processing (10/10 in Theory, 8/10 in Lab)</li>
+								<li>Telecommunication Systems (10/10)</li>
+								<li>Antenna Theory and Propagation (10/10)</li>
+								<li>Electronic Measurement and Instrumentation (10/10 in Theory, 10/10 in Lab)</li>
+								<li>Seminar (9/10)</li>
+							</ul></details>
+						<details>
+						<summary>7<sup>th</sup> Semester (8.74/10)</summary>
+							<ul>
+								<li>Wireless Communication and Networks (9/10)</li>
+								<li>Microelectronics and VLSI Design (9/10 in Theory, 9/10 in Lab)</li>
+								<li>RF and Microwave Engineering (9/10 in Theory, 10/10 in Lab)</li>
+								<li>Radar Engineering (8/10)</li>
+								<li>Database Management System (7/10 in Theory,10/10 in Lab)</li>
+								<li>Project - I (10/10)</li>
+							</ul></details>
+						<details>
+						<summary>8<sup>th</sup> Semester (9.52/10)</summary>
+							<ul>
+								<li>Organizational Behaviour (8/10)</li>
+								<li>Digital Image Processing (10/10)</li>
+								<li>Neural Networks (9/10)</li>
+								<li>Design Lab (10/10)</li>
+								<li>Project Part - II (10/10)</li>
+								<li>Grand Viva (9/10)</li>
+							</ul></details>
+					</ul>	
+
+				<h3 id="projects">Projects: </h3>
+				<p>In B.Tech, I did the following Projects: 
+					<ul>
+						<li><b>Development of Image Processing Technique to Reduce the Effect of Blurring</b> under the guidance of Dr. Ashok Sharma (Senior Project Research Scientist, NCPRE) and Dr.Prabir Kanti Basu (Senior Project Executive Officer(Scientist), NCPRE).</li>
+						This was the Summer Internship Project at NCPRE, IITB. Using edge spread function and laplacian filter, the raw photoluminescence images of Si-wafers and Solar cells were enhanced for proper visualization of defects and leading to quality measurement of the wafer or cell.
+						<li><b>Implementation of Subtractive Clustering on Functional Magnetic Resonance Images</b> under the guidance of Dr.Bandana Barman (Assistant Professor, Dept. of ECE, Kalyani Government Engineering College)</li>
+						In this Final Year dissertation, a recent clustering algorithm, called <a href="https://scialert.net/fulltext/?doi=itj.2008.356.360&org=11" target="_blank">Subtractive Clustering</a> has been used to cluster regions of FMRI images, based on activities.
+					</ul></p>
+				<h3 id="certifications">Certifications :</h3>
+					<p>The following are the certifications that I obtained on doing online MOOC courses at <a href="https://www.nptel.ac.in" target="_blank">NPTEL</a>,<a href="https://padhai.onefourthlabs.in/" target="_blank">PadhAI</a>,etc.</p>
+					<ul>
+						<li><a href="https://drive.google.com/open?id=1tl_ikJZP3fz8dJ1n-MFY_ec0k8Jfl87W" target="_blank">Deep Learning</a> by PadhAI, One Fourth Labs</li>
+						<li><a href="https://drive.google.com/open?id=1GCJ5XPGY8i1oWdQzw29WxYb-1Z-EBmkB" target="_blank">Antennas</a>  conducted by IITB at NPTEL</li>
+						<li><a href="https://drive.google.com/open?id=1NbPzO007nk0iT7K9efwsyqiWegi6m7s7" target="_blank">Design for Internet of Things</a> conducted by IISc at NPTEL</li>
+						<li><a href="https://www.udemy.com/certificate/UC-M2YLZ0S8/" target="_blank">Matplotlib Intro with Python</a> at Udemy</li>
+						<li><a href="https://drive.google.com/file/d/1EYEqLvzMfxd3J2-luBQP_FqVMsbuTKvJ/view" target="_blank">Intro to Python for Data Science Course</a> by Datacamp</li>
+						<li><a href="https://www.youracclaim.com/badges/d6e7455b-95b4-45f6-a09e-c6568215276f/linked_in_profile" target="_blank">Python for Data Science</a> conducted by IBM</li>
+						<li><a href="https://www.youracclaim.com/badges/24389a79-7e53-404b-98f2-377b8799089c/linked_in_profile" target="_blank">Data Science Foundations - Level 2 (V2)</a> by IBM</li>
+						<li><a href="https://www.youracclaim.com/badges/8004313b-2dd4-4466-b9d4-938a97c6df4c/linked_in_profile" target="_blank">Data Science Foundations - Level 1</a> by IBM</li>
+						<li><a href="" target="_blank">Python Programming Rapid Training: Using Python 3.7.2</a> at Udemy</li>
+					</ul>
+				<h3 id="internships">Internships :</h3>
+					<ul>
+						<li><a href="https://drive.google.com/file/d/1qIH5gtTDIkIxRsF3YNT2p7u0Q-U73n18/view?usp=sharing" target="_blank">Summer Research Intern</a> at National Centre for Photovoltaic Research and Education <a href="http://ncpre.iitb.ac.in/ncpre/index.html" target="_blank">(N.C.P.R.E.)</a>, IIT Bombay</li>
+						As a research intern from 18<sup>th</sup> June,2018 to 17<sup>th</sup> August,2018, I got exposure to industrial solar cell manufacturing process and characterization methods. My primary work was to generate correct spatial maps of Photoluminescence (PL) and extract correct information on electronic quality and enhancement of Si wafers and Solar Cell images, for clear identification of defects  and true distribution of minority carrier lifetime of these Cells and Wafers.
+						<li><a href="https://drive.google.com/open?id=10D_8MJiiPwL6uk124v2ZFbJWEZHA7ifx" target="_blank">Advanced Telecommunication Vocational Training</a> at BSNL, Kalyani, W.B.</li>
+						In this training period of 1 month from 1<sup>st</sup> Jan,2018 to 27<sup>th</sup> Jan,2018 we were drove into the aspects of modern communication systems like GSM,GPRS,3G architecture, Routing Protocols, MPLS VPN,etc. 
+						<li><a href="https://drive.google.com/open?id=0B_f-lnDAu0DuSzRtVVBLNjZfTTg" target="_blank">Digital Marketing Intern</a> at Kahaniya.com</li>
+						The internship lasted for 2 months from May,2017 to July,2017. Kahaniya.com started a new initiative for budding story-writers to publish and showcase their work, with the winner able to meet Mr. Shashi Tharoor himself. My work in this was to help spread the great initiative via Digital Media.
+						<li><a href="https://drive.google.com/open?id=1ZpleKPDkAGifgRzYU2bgGRGMqL0IC5e6" target="_blank">Brand Ambassador</a> for ATKT.in</li>
+						Worked as a Social Media Marketing intern for 1 month during March,2017 duration at ATKT.in. The work included Digital Marketing and preparation of Report of activities.
+					</ul>
+				<h3 id="hobbies">Hobbies :</h3>
+					My hobbies include :
+					<ul>
+						<li>Playing Cricket.</li>
+						<li>Playing Badminton. A recent addition after joining IITB.</li>
+						<li>Listening to Calm and Soothing Music.</li>
+						<li>Mobile Photographer.</li>
+					</ul>
+
+				<hr width="35%" >
+				<div id="footer">
+					<a href="#" style="float: left;">Back to the Top</a>
+					<center>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://github.com/SohamNaha" target="_blank"><i class="fa fa-github"></i></a>&nbsp;&nbsp;
+					<a href="https://www.linkedin.com/in/soham-naha-1aaa13116" target="_blank"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
+					<a href="mailto:sohamnaha.sn[at][DOMAIN=gmail][dot]com" target="_blank"><i class="fa fa-envelope-o"></i></a>
+					<b style="float: right; color: white"></style>Copyright &copy 2020 Soham Naha</b>
+					</center>	
+				</div>
+				</div>
+				<div id="nav">
+					<h3>Useful Links</h3>
+					<ul>
+						<li><a href="https://www.ee.iitb.ac.in" target="_blank">EE Dept., IITB</a></li>
+						<li>Latex Online <a href="https://www.overleaf.com">Overleaf</a></li>
+						<li><a href="courses"> Courses</a></li>
+						<li><a href="projects">Project</a></li>
+						<li><a href="certifications">Certificates</a></li>
+						<li><a href="internships">Internships</a></li>
+						<li><a href="hobbies">Hobbies</a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>		
+	</body>
 </html>
