@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta charset="utf-8">
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="keywords" content="Soham, Naha, Electrical, Electronics, IITB, IIT, Bombay, M.Tech, SysAd, PCLab,pclab">
+		<meta name="description" content="Soham Naha's Home Page">
+        <meta name="author" content="Soham Naha" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"> <!-- Academic Icons https://jpswalsh.github.io/academicons/ -->
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 		<link rel="icon" href="https://www.ee.iitb.ac.in/web/iitblogogray.png" type="image/png">
 		<title>n0ob4eVer::Homepage</title>
+		<!-- == Custom Styling-->
 		<style type="text/css">
-			#container{
+			/*#container{
 				width: 95%;
 				margin-left: auto;
 				margin-right: auto;
@@ -41,19 +55,19 @@
 				border: 1px solid #a1a1a1;
 				box-shadow: 5px 10px 18px grey;
 			}
-			#nav li a { 
+			#nav li a {
 				color: blue;
-				text-decoration: none; 
+				text-decoration: none;
 				background-color: #f1f1f1;
 				border: 1px solid #;
-				}	
+				}
 
 			#nav li a:hover{
 				color: black;
 				background-color: #e1e1e1;
 				width: 98%;
-			}			 
-			#nav ul { 
+			}
+			#nav ul {
 				list-style-type: none;
 				margin: 0;
 				padding: 0;
@@ -62,7 +76,7 @@
 			#nav li{
 				display: inline-block;
 				border: 1px solid #a1a1a1;
-				width: 98%; 
+				width: 98%;
 				border-style: double;
 				border-width: 1px 0px 0px 0px;
 			}
@@ -70,7 +84,7 @@
 				background-color: #cc0000;
 				color: white;
 				margin: 0;
-				padding: 3px;	
+				padding: 3px;
 			}
 			#main{
 				float: right;
@@ -105,7 +119,7 @@
 			h2{
 				margin: 0;
 
-			}
+			}*/
 			table#edu {
 				table-layout: fixed;
 				width: 100%;
@@ -120,6 +134,7 @@
 			table#edu tr:nth-child(odd) {
 			  background-color: #eee;
 			}
+			/*
 			.dark-mode {
 			  background-color: black;
 			  color: white;
@@ -152,54 +167,100 @@
 			.button_class:hover {
 			  background-color: #555555;
 			  color: white;
-			}
+			}*/
 		</style>
 	</head>
-	<meta name="keywords" content="Soham, Naha, Electrical, Electronics, IITB, IIT, Bombay, M.Tech, SysAd, PCLab,pclab">
-	<meta name="description" content="Soham Naha's Home Page">
 
-	<body bgcolor="#FFF">
-		<div id="container">
-			<div id="header">
-				<img src="./ee_iitb.png"></img>
-				<button class="button_class" style="float: right; overflow: hidden;" onclick="myFunction()"><div id="eg">Dark <br> Mode</div></button>
-				<h2>Soham Naha's Homepage</h2>
-				<script>
-				function myFunction() {
-				   var element = document.body;
-				   element.classList.toggle("dark-mode");
-				   var x=document.getElementById("eg");
-					   if (x.innerHTML === "Dark <br> Mode") {
-					    x.innerHTML = "Light <br> Mode";
-					  } else {
-					    x.innerHTML = "Dark <br> Mode";
-					  }
-					}
-				</script>
-			</div>
-			<div id="content">
-				<div id="nav">
-					<h3 style="">Navigation</h3>
-					<ul>
-						<li><a href="#">About Me</a></li>
-						<li><a href="#education"> Education</a></li>
-						<li><a href="#courses"> Courses</a></li>
-						<li><a href="#projects">Project</a></li>
-						<li><a href="#certifications">Certificates</a></li>
-						<li><a href="#internships">Internships</a></li>
-						<li><a href="#hobbies">Hobbies</a></li>
-					</ul>
-				</div>
-				<div id="main">
-					<table>
-						<tr><h3>About Me :</h3></tr>
-						<tr>
-							<td><p>I am pursuing M.tech in Communication and Signal Processing at Department of Electrical Engineering, IIT Bombay. I am a System Administrator for Electrical Engineering Department. I am a Coding Enthusiast and learning my way through to become a Machine Learning Researcher. To know more about SysAds at EE Department, IITB please <a href="http://www.ee.iitb.ac.in/~pclab/index.php" target="_blank">click here</a></p></td>
-							<td><img src="./pic.jpeg" width="100" height="100" style="border-radius: 50%" alt="profile_picture"></img></td>
-						</tr>
-					</table>
-					<h3 id="education"> Educational Qualification :</h3>
-					<table id="edu" style="text-align: center; border-collapse: collapse;">
+	<body id="page-top"> <!-- bgcolor="#FFF" -->
+		<!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Soham Naha</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/pic.jpeg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#courses">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hobbies">hobbies</a></li>
+                </ul>
+            </div>
+        </nav>
+		<!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Soham
+                        <span class="text-primary">Naha</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Hostel 18, IITB
+                        <a class="social-icon" href="mailto:sohamnaha.sn[at][DOMAIN=gmail][dot]com"><i class="fa fa-envelope"></i></a>
+                    </div>
+                    <p class="lead mb-5">Currently pursuing M.tech in Communication and Signal Processing at Department of Electrical Engineering, IIT Bombay. I am a System Administrator for Electrical Engineering Department. My primary research focuses on 5G communication systems, but I am equally enthusiastic about the field of Machine Learning and its wonders.<br>
+							To know more about SysAds at EE Dept., IITB please <a href="http://www.ee.iitb.ac.in/~pclab/index.php" target="_blank">click here</a></p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/soham-naha" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/soham2109"  target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://twitter.com/kgec_soham"  target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#"  target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </section>
+
+			<!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Internships</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="flex-grow-1">
+                            <h3 class="mb-0">Summer Research Intern</h3>
+                            <div class="subheading mb-3"><a href="http://ncpre.iitb.ac.in/ncpre/index.html" target="_blank">N.C.P.R.E.</a>, IIT Bombay</div>
+                            <p>As a research intern, I received exposure to industrial solar cell manufacturing process and characterization methods. My primary work was to generate correct spatial maps of Photoluminescence (PL) and extract correct information on electronic quality and enhancement of Si wafers and Solar Cell images, for clear identification of defects  and true distribution of minority carrier lifetime of these Cells and Wafers.</p>
+                        </div>
+                         <div class="flex-shrink-0"><span class="text-primary">June,2018 - August,2018</span></div>
+                    </div>
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="flex-grow-1">
+                            <h3 class="mb-0">Advanced Telecommunication Vocational Training</h3>
+                            <div class="subheading mb-3">BSNL, Kalyani, W.B.</div>
+                            <p>In this training period of 1 month, we gained insights into the aspects of modern communication systems like GSM, GPRS, 3G architecture, Routing Protocols, MPLS VPN,etc.</p>
+                        </div>
+                         <div class="flex-shrink-0"><span class="text-primary">Jan,2018</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="flex-grow-1">
+                            <h3 class="mb-0">Digital Marketing Intern</h3>
+                            <div class="subheading mb-3">kahaniya.com</div>
+                            <p>The internship lasted for 2 months. Kahaniya.com began a new initiative for budding story-writers to publish and showcase their work, with the winner able to meet Mr. Shashi Tharoor himself. My work in this was to help spread the great initiative via Digital Media.</p>
+                        </div>
+                         <div class="flex-shrink-0"><span class="text-primary">May,2017 - July,2017</span></div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="flex-grow-1">
+                            <h3 class="mb-0">Brand Ambassador</h3>
+                            <div class="subheading mb-3">ATKT.in</div>
+                            <p>Worked as a Social Media Marketing intern for 1 month. The work included Digital Marketing and preparation of Report of activities.</p>
+                        </div>
+                         <div class="flex-shrink-0"><span class="text-primary">March, 2017</span></div>
+                    </div>
+            </section>
+            <hr class="m-0" />
+
+			<!-- Education -->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <table id="edu" style="text-align: center; border-collapse: collapse;">
 						<tr>
 							<th>Degree</th>
 							<th>Institute</th>
@@ -213,7 +274,7 @@
 							<td><a href="http://www.iitb.ac.in" target="_blank">Indian Institute of Technology, Bombay </a></td>
 							<td>Indian Institute of Technology, Bombay</td>
 							<td>Communication and Signal Processing</td>
-							<td> </td>
+							<td>-</td>
 							<td>2019-Present</td>
 						</tr>
 						<tr>
@@ -236,189 +297,369 @@
 							<td>Secondary (Madhyamik)</td>
 							<td> <a href="http://hmeducationcentre.in/" target="_blank">Hindmotor Education Center</a></td>
 							<td>West Bengal Board of Secondary Education (W.B.B.S.E.)</td>
-							<td> </td>
+							<td>-</td>
 							<td>91.57%</td>
 							<td>2013</td>
 						</tr>
 					</table>
+                </div>
+            </section>
+            <hr class="m-0" />
 
-					<h3 id="courses">Semester-wise Courses & Results :</h3>
-					<p align="left">The following courses were done by me at IIT Bombay :</p>
-					<ul>
-						<details>
-							<summary>1<sup>st</sup> Semester (8.33/10)</summary>
-							<ul>
-								<li>Statistical Signal Analysis (10/10)</li>
-								<li>Digital Message Transmission (9/10)</li>
-								<li>Applied Linear Algebra (6/10)</li>
-							</ul>
-						</details>
-						<details>
-							<summary>2<sup>nd</sup> Semester (./10)</summary>
-								<ul><li>Communication Networks</li>
-								<li>Introduction to Machine Learning(10/10)</li>
-								<!--<li>Cryptography and Network Security</li>-->
-							</ul>
-						</details>
-						<details>
-							<summary>3<sup>rd</sup> Semester (9.25/10)</summary>
-								<ul><li>Advanced Machine Learning(9/10)</li>
-								<li>Digital Image Processing(9/10)</li>
-								<li>Speech Processing(9/10)</li>
-								<li>Seminar on Topic <b>Effect of General Channel Aging on the Downlink Performance of Massive MIMO Systems</b> (10/10)</li>
-								<li> RnD Project (10/10)</li>
-							</ul>
-						</details>
 
-						
-					</ul>
-					<p align="left">The following courses were done by me at Kalyani Government Engineering College :</p>
-					<ul>
-						<details>
-							<summary>1<sup>st</sup> Semester (8.41/10)</summary>
-							<!--<ul>
-								<li>Basic Electrical and Electronic Engineering - I (8/10 in both Theory and Lab)</li>
-								<li>English Language and Technical Communication (8/10 in Theory, 7/10 in Lab)</li>
-								<li>Chemistry - I (8/10 in Theory, 9/10 in Lab)</li>
-								<li>Mathematics - I (10/10)</li>
-								<li>Engineering Mechanics (7/10)</li>
-								<li>Engineering Drawing and Computer Graphics (10/10)</li>
-							</ul>--></details>
-						<details>
-						<summary>2<sup>nd</sup> Semester (8.21/10)</summary>
-							<!--<ul>
-								<li>Basic Computation and Principles of Computer Programming (8/10 in Theory, 9/10 in Lab)</li>
-								<li>Physics - I (7/10 in Theory, 8/10 in Lab)</li>
-								<li>Mathematics - II (9/10)</li>
-								<li>Engineering Thermodynamics and Fluid Mechanics (8/10)</li>
-								<li>Basic Electrical and Electronic Engineering - II (9/10 in Theory, 8/10 in Lab)</li>
-								<li>Workshop Practice (8/10)</li>
-							</ul>--></details>
-						<details>
-						<summary>3<sup>rd</sup> Semester (8.52/10)</summary>
-							<!--<ul>
-								<li>Numerical Methods (10/10 in Theory, 10/10 in Lab)</li>
-								<li>Mathematics - III (9/10)</li>
-								<li>Circuit Thoery and Networks (8/10 in Theory, 10/10 in Lab)</li>
-								<li>Solid State Devices (7/10 in Theory, 9/10 in Lab)</li>
-								<li>Signals and Systems (8/10 in Theory, 7/10 in Lab)</li>
-								<li>Analog Electronic Circuits (8/10 in Theory, 10/10 in Lab)</li>
-							</ul>--></details>
-						<details>
-						<summary>4<sup>th</sup> Semester (8.81/10)</summary>
-							<!--<ul>
-								<li>Values and Ethics in Profession (8/10 in Theory, 9/10 in Lab)</li>
-								<li>Physics -II (8/10 in Theory, 8/10 in Lab)</li>
-								<li>Basic Environmental Engineering and Elementary Biology (9/10)</li>
-								<li>EM Theory and Transmission Lines (10/10 in Theory, 9/10 in Lab)</li>
-								<li>Digital Electronic and Integrated Circuits (9/10 in Theory, 9/10 in Lab)</li>
-							</ul>--></details>
-						<details>
-						<summary>5<sup>th</sup> Semester (8.85/10)</summary>
-							<!--<ul>
-								<li>Economics for Engineers (9/10)</li>
-								<li>Analog Communication (9/10 in Theory, 9/10 in Lab)</li>
-								<li>Microprocessor and Micrcontrollers (9/10 in Theory, 9/10 in Lab</li>
-								<li>Control System (9/10 in Theory, 9/10 in Lab)</li>
-								<li>Data Structure and C (8/10 in Theory, 9/10 in Lab)</li>
-							</ul>--></details>
-						<details>
-						<summary>6<sup>th</sup> Semester (9.52/10)</summary>
-							<!--<ul>
-								<li>Principles of Management (8/10)</li>
-								<li>Digital Communication (10/10 in Theory, 9/10 in Lab)</li>
-								<li>Digital Signal Processing (10/10 in Theory, 8/10 in Lab)</li>
-								<li>Telecommunication Systems (10/10)</li>
-								<li>Antenna Theory and Propagation (10/10)</li>
-								<li>Electronic Measurement and Instrumentation (10/10 in Theory, 10/10 in Lab)</li>
-								<li>Seminar (9/10)</li>
-							</ul>--></details>
-						<details>
-						<summary>7<sup>th</sup> Semester (8.74/10)</summary>
-							<!--<ul>
-								<li>Wireless Communication and Networks (9/10)</li>
-								<li>Microelectronics and VLSI Design (9/10 in Theory, 9/10 in Lab)</li>
-								<li>RF and Microwave Engineering (9/10 in Theory, 10/10 in Lab)</li>
-								<li>Radar Engineering (8/10)</li>
-								<li>Database Management System (7/10 in Theory,10/10 in Lab)</li>
-								<li>Project - I (10/10)</li>
-							</ul>--></details>
-						<details>
-						<summary>8<sup>th</sup> Semester (9.52/10)</summary>
-							<!--<ul>
-								<li>Organizational Behaviour (8/10)</li>
-								<li>Digital Image Processing (10/10)</li>
-								<li>Neural Networks (9/10)</li>
-								<li>Design Lab (10/10)</li>
-								<li>Project Part - II (10/10)</li>
-								<li>Grand Viva (9/10)</li>
-							</ul>--></details>
-					</ul>	
+			<!-- Courses -->
+			<section class="resume-section" id="courses">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Courses</h2>
+                    <div class="subheading mb-3">Courses at IITB</div>
+		                <ul>
+							<details>
+								<summary>1<sup>st</sup> Semester</summary>
+								<ul>
+									<li>Statistical Signal Analysis (EE603)</li>
+									<li>Digital Message Transmission (EE703)</li>
+									<li>Applied Linear Algebra (EE635)</li>
+								</ul>
+							</details>
+							<details>
+							<summary>2<sup>nd</sup> Semester</summary>
+								<ul>
+									<li>Communication Networks (EE706)</li>
+									<li>Introduction to Machine Learning (EE769)</li>
+								</ul>
+							</details>
+							<details>
+								<summary>3<sup>rd</sup> Semester</summary>
+								<ul>
+									<li>Advanced Machine Learning (EE782)</li>
+									<li>Digital Image Processing (CS663)</li>
+									<li>Speech Processing (EE769)</li>
+									<li>Seminar on Topic <b>Effect of General Channel Aging on the Downlink Performance of Massive MIMO Systems</b></li>
+									<li>RnD Project</li>
+								</ul>
+							</details>
+							<details>
+								<summary>4<sup>th</sup> Semester</summary>
+								<ul>
+									<li>Information Theory and Coding (EE708)</li>
+									<li>Wireless Communication (EE764)</li>
+									<li>Automatic Speech Processing (CS753)</li>
+								</ul>
+							</details>
+						</ul>
+					<div class="subheading mb-3">Courses at KGEC</div>
+						<ul>
+							<details>
+								<summary>1<sup>st</sup> Semester</summary>
+								<ul>
+									<li>Basic Electrical and Electronic Engineering - I</li>
+									<li>English Language and Technical Communication</li>
+									<li>Chemistry - I</li>
+									<li>Mathematics - I</li>
+									<li>Engineering Mechanics</li>
+									<li>Engineering Drawing and Computer Graphics</li>
+								</ul>
+							</details>
+							<details>
+								<summary>2<sup>nd</sup> Semester</summary>
+								<ul>
+									<li>Basic Computation and Principles of Computer Programming</li>
+									<li>Physics - I</li>
+									<li>Mathematics - II</li>
+									<li>Engineering Thermodynamics and Fluid Mechanics</li>
+									<li>Basic Electrical and Electronic Engineering - II</li>
+									<li>Workshop Practice</li>
+								</ul>
+							</details>
+							<details>
+								<summary>3<sup>rd</sup> Semester</summary>
+								<ul>
+									<li>Numerical Methods</li>
+									<li>Mathematics - III</li>
+									<li>Circuit Thoery and Networks</li>
+									<li>Solid State Devices</li>
+									<li>Signals and Systems</li>
+									<li>Analog Electronic Circuits</li>
+								</ul>
+							</details>
+							<details>
+								<summary>4<sup>th</sup> Semester</summary>
+								<ul>
+									<li>Values and Ethics in Profession</li>
+									<li>Physics -II</li>
+									<li>Basic Environmental Engineering and Elementary Biology</li>
+									<li>EM Theory and Transmission Lines</li>
+									<li>Digital Electronic and Integrated Circuits</li>
+								</ul>
+							</details>
+							<details>
+								<summary>5<sup>th</sup> Semester</summary>
+								<ul>
+									<li>Economics for Engineers</li>
+									<li>Analog Communication</li>
+									<li>Microprocessor and Micrcontrollers</li>
+									<li>Control System</li>
+									<li>Data Structure and C</li>
+								</ul>
+							</details>
+							<details>
+								<summary>6<sup>th</sup> Semester</summary>
+								<ul>
+									<li>Principles of Management</li>
+									<li>Digital Communication</li>
+									<li>Digital Signal Processing</li>
+									<li>Telecommunication Systems</li>
+									<li>Antenna Theory and Propagation</li>
+									<li>Electronic Measurement and Instrumentation</li>
+									<li>Seminar on Carbon Nanotubes</li>
+								</ul>
+							</details>
+							<details>
+								<summary>7<sup>th</sup> Semester</summary>
+								<ul>
+									<li>Wireless Communication and Networks</li>
+									<li>Microelectronics and VLSI Design</li>
+									<li>RF and Microwave Engineering</li>
+									<li>Radar Engineering</li>
+									<li>Database Management System</li>
+									<li>Project - I</li>
+								</ul>
+							</details>
+							<details>
+								<summary>8<sup>th</sup> Semester</summary>
+								<ul>
+									<li>Organizational Behaviour</li>
+									<li>Digital Image Processing</li>
+									<li>Neural Networks</li>
+									<li>Design Lab</li>
+									<li>Project Part - II</li>
+									<li>Grand Viva</li>
+								</ul>
+							</details>
+						</ul>
+                </div>
+           	</section>
+			<hr class="m-0" />
 
-				<h3 id="projects">Projects: </h3>
-				<p>In B.Tech, I did the following Projects: 
-					<ul>
-						<li><b>Development of Image Processing Technique to Reduce the Effect of Blurring</b> under the guidance of Dr. Ashok Sharma (Senior Project Research Scientist, NCPRE) and Dr.Prabir Kanti Basu (Senior Project Executive Officer(Scientist), NCPRE).</li>
-						This was the Summer Internship Project at NCPRE, IITB. Using edge spread function and laplacian filter, the raw photoluminescence images of Si-wafers and Solar cells were enhanced for proper visualization of defects and leading to quality measurement of the wafer or cell.
-						<li><b>Implementation of Subtractive Clustering on Functional Magnetic Resonance Images</b> under the guidance of Dr.Bandana Barman (Assistant Professor, Dept. of ECE, Kalyani Government Engineering College)</li>
-						In this Final Year dissertation, a recent clustering algorithm, called <a href="https://scialert.net/fulltext/?doi=itj.2008.356.360&org=11" target="_blank">Subtractive Clustering</a> has been used to cluster regions of FMRI images, based on activities.
-					</ul></p>
-				<h3 id="certifications">Certifications :</h3>
-					<p>The following are the certifications that I obtained on doing online MOOC courses at <a href="https://www.nptel.ac.in" target="_blank">NPTEL</a>,<a href="https://padhai.onefourthlabs.in/" target="_blank">PadhAI</a>,etc.</p>
-					<ul>
-						<li><a href="https://drive.google.com/open?id=1tl_ikJZP3fz8dJ1n-MFY_ec0k8Jfl87W" target="_blank">Deep Learning</a> by PadhAI, One Fourth Labs</li>
-						<li><a href="https://drive.google.com/open?id=1GCJ5XPGY8i1oWdQzw29WxYb-1Z-EBmkB" target="_blank">Antennas</a>  conducted by IITB at NPTEL</li>
-						<li><a href="https://drive.google.com/open?id=1NbPzO007nk0iT7K9efwsyqiWegi6m7s7" target="_blank">Design for Internet of Things</a> conducted by IISc at NPTEL</li>
-						<li><a href="https://www.udemy.com/certificate/UC-M2YLZ0S8/" target="_blank">Matplotlib Intro with Python</a> at Udemy</li>
-						<li><a href="https://drive.google.com/file/d/1EYEqLvzMfxd3J2-luBQP_FqVMsbuTKvJ/view" target="_blank">Intro to Python for Data Science Course</a> by Datacamp</li>
-						<li><a href="https://www.youracclaim.com/badges/d6e7455b-95b4-45f6-a09e-c6568215276f/linked_in_profile" target="_blank">Python for Data Science</a> conducted by IBM</li>
-						<li><a href="https://www.youracclaim.com/badges/24389a79-7e53-404b-98f2-377b8799089c/linked_in_profile" target="_blank">Data Science Foundations - Level 2 (V2)</a> by IBM</li>
-						<li><a href="https://www.youracclaim.com/badges/8004313b-2dd4-4466-b9d4-938a97c6df4c/linked_in_profile" target="_blank">Data Science Foundations - Level 1</a> by IBM</li>
-						<li><a href="" target="_blank">Python Programming Rapid Training: Using Python 3.7.2</a> at Udemy</li>
-					</ul>
-				<h3 id="internships">Internships :</h3>
-					<ul>
-						<li><a href="https://drive.google.com/file/d/1qIH5gtTDIkIxRsF3YNT2p7u0Q-U73n18/view?usp=sharing" target="_blank">Summer Research Intern</a> at National Centre for Photovoltaic Research and Education <a href="http://ncpre.iitb.ac.in/ncpre/index.html" target="_blank">(N.C.P.R.E.)</a>, IIT Bombay</li>
-						As a research intern from 18<sup>th</sup> June,2018 to 17<sup>th</sup> August,2018, I got exposure to industrial solar cell manufacturing process and characterization methods. My primary work was to generate correct spatial maps of Photoluminescence (PL) and extract correct information on electronic quality and enhancement of Si wafers and Solar Cell images, for clear identification of defects  and true distribution of minority carrier lifetime of these Cells and Wafers.
-						<li><a href="https://drive.google.com/open?id=10D_8MJiiPwL6uk124v2ZFbJWEZHA7ifx" target="_blank">Advanced Telecommunication Vocational Training</a> at BSNL, Kalyani, W.B.</li>
-						In this training period of 1 month from 1<sup>st</sup> Jan,2018 to 27<sup>th</sup> Jan,2018 we were drove into the aspects of modern communication systems like GSM,GPRS,3G architecture, Routing Protocols, MPLS VPN,etc. 
-						<li><a href="https://drive.google.com/open?id=0B_f-lnDAu0DuSzRtVVBLNjZfTTg" target="_blank">Digital Marketing Intern</a> at Kahaniya.com</li>
-						The internship lasted for 2 months from May,2017 to July,2017. Kahaniya.com started a new initiative for budding story-writers to publish and showcase their work, with the winner able to meet Mr. Shashi Tharoor himself. My work in this was to help spread the great initiative via Digital Media.
-						<li><a href="https://drive.google.com/open?id=1ZpleKPDkAGifgRzYU2bgGRGMqL0IC5e6" target="_blank">Brand Ambassador</a> for ATKT.in</li>
-						Worked as a Social Media Marketing intern for 1 month during March,2017 duration at ATKT.in. The work included Digital Marketing and preparation of Report of activities.
-					</ul>
-				<h3 id="hobbies">Hobbies :</h3>
-					My hobbies include :
-					<ul>
-						<li>Playing Cricket.</li>
-						<li>Playing Badminton. A recent addition after joining IITB.</li>
-						<li>Listening to Calm and Soothing Music.</li>
-						<li>Mobile Photographer.</li>
-					</ul>
+			<!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    	<div class="flex-grow-1">
+                            <h3 class="mb-0">Summer Research Intern</h3>
+                            <div class="subheading mb-3">NCPRE, IITB</div>
+								<p><b>Development of Image Processing Technique to Reduce the Effect of Blurring</b> under the guidance of Dr. Ashok Sharma (Senior Project Research Scientist, NCPRE) and Dr.Prabir Kanti Basu (Senior Project Executive Officer(Scientist), NCPRE).<br>
+								This was the Summer Internship Project at NCPRE, IITB. Using edge spread function and laplacian filter, the raw photoluminescence images of Si-wafers and Solar cells were enhanced for proper visualization of defects and leading to quality measurement of the wafer or cell.
+								</p>
+                        </div>
+                         <div class="flex-shrink-0"><span class="text-primary">June,2018 - Aug,2018</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="flex-grow-1">
+                            <h3 class="mb-0">B.Tech Project</h3>
+                            <div class="subheading mb-3">Kalyani Government Engineering College</div>
+								<p><b>Implementation of Subtractive Clustering on Functional Magnetic Resonance Images</b> under the guidance of Dr.Bandana Barman (Assistant Professor, Dept. of ECE, Kalyani Government Engineering College)
+								In this Final Year dissertation, a recent clustering algorithm, called <a href="https://scialert.net/fulltext/?doi=itj.2008.356.360&org=11" target="_blank">Subtractive Clustering</a> has been used to cluster regions of FMRI images, based on activities.
+								</p>
+						</div>
+                         <div class="flex-shrink-0"><span class="text-primary">Aug,2018 - June,2019</span></div>
 
-				<hr width="35%" >
-				<div id="footer">
-					<a href="#" style="float: left;">Back to the Top</a>
-					<center>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="https://github.com/SohamNaha" target="_blank"><i class="fa fa-github"></i></a>&nbsp;&nbsp;
-					<a href="https://www.linkedin.com/in/soham-naha-1aaa13116" target="_blank"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
-					<a href="mailto:sohamnaha.sn[at][DOMAIN=gmail][dot]com" target="_blank"><i class="fa fa-envelope-o"></i></a>
-					<b style="float: right; color: white"></style>Copyright &copy 2020 Soham Naha</b>
-					</center>	
+                    </div>
 				</div>
-				</div>
-				<div id="nav">
-					<h3>Useful Links</h3>
-					<ul>
-						<li><a href="https://www.ee.iitb.ac.in" target="_blank">EE Dept., IITB</a></li>
-						<li>Latex Online <a href="https://www.overleaf.com" target="_blank">Overleaf</a></li>
-						<li><a href="findings_020520.html" target="_blank">Reading on 02-05-20</a></li>
-						<!--<li><a href="MPNeuronScratch.html" target="_blank">MPNeuron from Scratch</a></li>-->
-					</ul>
-				</div>
-			</div>
-			
-		</div>		
+            </section>
+            <hr class="m-0" />
+
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-git"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-linux"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-database"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-terminal"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Skills and Purposes</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Scripting Languages: Python (Intermediate), C++ (Beginner), Matlab (Beginner), Bash (beginner)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Academic Tools: Inkscape, Latex, Powerpoint, Beamer Presentations
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Machine Learning Frameworks: PyTorch, Scikit-Learn, Tensorflow
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Web-Related: MarkDown, HTML, CSS, Bootstrap, Django, Sqlite3
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+			<!-- Awards-->
+            <section class="resume-section" id="certifications">
+                <div class="resume-section-content">
+                	<h2 class="mb-5">Awards</h2>
+
+                    <h2 class="mb-5">Certifications</h2>
+                    <p>The following are the certifications that I obtained on doing online MOOC courses at <a href="https://www.nptel.ac.in" target="_blank">NPTEL</a>,<a href="https://padhai.onefourthlabs.in/" target="_blank">PadhAI</a>, <a href="" target="_blank">Pluralsight</a>, etc.</p>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+                            Core Python: Hashing and more Collections by Pluralsight
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+                            Core Python: The Numeric Tower, Conversion, and Operators by Pluralsight
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+                            Core Python: Byte Oriented Programming by Pluralsight
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+                            Core Python: Advanced Flow Control by Pluralsight
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+                            Core Python: Numeric Types, Dates and Times by Pluralsight
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+                            Core Python: Robust Resource and Error Handling by Pluralsight
+                        </li>
+                         <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+                            Core Python: Implementating Iterators, Iterables and Collections by Pluralsight
+                        </li>
+                         <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+                            Core Python: Introspection by Pluralsight
+                        </li>
+                         <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							Core Python: Functions and Functional Programming by Pluralsight
+                        </li>
+                         <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							Core Python: Organizing Layer Programs by Pluralsight
+                        </li>
+                         <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							Core Python: Classes and Object-orientation by Pluralsight
+                        </li>
+                         <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							Core Python: Getting Started by Pluralsight
+                        </li>
+                         <li>
+                            <span class="fa-li"><i class="fas fa-certificate"></i></span>
+							Core Python: Big Picture by Pluralsight
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							<a href="https://coursera.org/share/14527d72627da480d4be17d4b87a420b" target="_blank">Testing and Debugging Python</a> by Coursera
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							<a href="https://coursera.org/share/73a43eb4c454187681c3a9bcefe64330" target="_blank">Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization</a> by Coursera
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							<a href="https://coursera.org/share/131114744dcb016f881c137d6e914003" target="_blank">Linear Regression with NumPy and Python</a> by Coursera Project Network
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							<a href="https://coursera.org/share/8f214fd832718750b7d82467665f4a41" target="_blank">Build Your Portfolio Website with HTML and CSS</a> by Coursera Project Network
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							<a href="https://coursera.org/share/35e09dedbe7b8788abab47340f710f8e" target="_blank">Neural Networks and Deep Learning</a> by Coursera
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							<a href="https://coursera.org/share/35e09dedbe7b8788abab47340f710f8e" target="_blank">Neural Networks and Deep Learning</a> by Coursera
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							<a href="https://coursera.org/share/71b40d65c06a958058b74eeb9f3f178c" target="_blank">Image Processing with Python</a> by Coursera Project Network
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							Deep Learning by PadhAI, One Fourth Labs
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							Antennas conducted by IITB at NPTEL
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							Design for Internet of Things conducted by IISc at NPTEL
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							<a href="https://www.udemy.com/certificate/UC-M2YLZ0S8/" target="_blank">Matplotlib Intro with Python</a> at Udemy
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							Intro to Python for Data Science Course by Datacamp
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							<a href="https://www.youracclaim.com/badges/d6e7455b-95b4-45f6-a09e-c6568215276f/linked_in_profile" target="_blank">Python for Data Science</a> conducted by IBM
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							<a href="https://www.youracclaim.com/badges/24389a79-7e53-404b-98f2-377b8799089c/linked_in_profile" target="_blank">Data Science Foundations - Level 2 (V2)</a> by IBM
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							<a href="https://www.youracclaim.com/badges/8004313b-2dd4-4466-b9d4-938a97c6df4c/linked_in_profile" target="_blank">Data Science Foundations - Level 1</a> by IBM
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate "></i></span>
+							Python Programming Rapid Training: Using Python 3.7.2 at Udemy
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Hobbies-->
+            <section class="resume-section" id="hobbies">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Hobbies</h2>
+                    <p>From the very childhood, I was passionate about cricket. I love playing it. I have played in the Institue Premier League (IPL of IITB) for Delhi Daredevils, in the year 2019. I also played for my Dept. while I was in KGEC, and in my final year, we won the Al Hambra Cricket Tournament.</p>
+                    <p>A recent development after enrolling to IITB, was the interest in playing badmintion. One of my friends, Shivam, mentored me to play the game and I truly enjoyed it.</p>
+                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows. I also at times listen to smooth and calm music, mostly to relieve the stress. I spend a large amount of my free time exploring the latest technology advancements in the ML and DL world.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+        </div>
+
+		</div>
+		<!-- Bootstrap core JS-->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
 	</body>
 </html>
